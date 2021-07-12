@@ -15,3 +15,7 @@ h2 {
 h4 {
   font-family: "Inconsolata", monospace;
 }
+
+nav ul {
+  list-style-type: none;
+}
