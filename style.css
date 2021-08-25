@@ -19,20 +19,24 @@ h4 {
 main {
   display: grid;
   grid-column-gap: 15px; 
-  grid-template-areas: ;
+  grid-template-areas: 
+    'menu menu menu'
+    'menu main main'
+    'menu main main'
+    'menu main main';
 }
 
 nav {
   grid-area: menu;
-  position: fixed;
-  background-color: ;
+  /* position: fixed; 
+  background-color: ; */
 }
 
 nav ul {
   list-style-type: none;
-  width: 320px;
+  /* width: 320px; */
 }
 
-.main-section {
+#Best_Practices {
   grid-area: main;
 }
