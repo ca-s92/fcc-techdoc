@@ -16,10 +16,16 @@ h4 {
   font-family: "Inconsolata", monospace;
 }
 
+main {
+  display: grid;
+}
+
 nav {
+  position: fixed;
   background-color: ;
 }
 
 nav ul {
   list-style-type: none;
+  width: 320px;
 }
