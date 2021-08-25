@@ -18,9 +18,12 @@ h4 {
 
 main {
   display: grid;
+  grid-column-gap: 15px; 
+  grid-template-areas: ;
 }
 
 nav {
+  grid-area: navigation;
   position: fixed;
   background-color: ;
 }
@@ -28,4 +31,8 @@ nav {
 nav ul {
   list-style-type: none;
   width: 320px;
+}
+
+.main-section {
+  grid-area: content;
 }
