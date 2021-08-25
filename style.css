@@ -23,7 +23,7 @@ main {
 }
 
 nav {
-  grid-area: navigation;
+  grid-area: menu;
   position: fixed;
   background-color: ;
 }
@@ -34,5 +34,5 @@ nav ul {
 }
 
 .main-section {
-  grid-area: content;
+  grid-area: main;
 }
