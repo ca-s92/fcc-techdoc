@@ -30,6 +30,8 @@ main {
 
 nav {
   grid-area: menu;
+  grid-row-start: 1;
+  grid-row-end: 6;
   /* position: fixed; 
   background-color: ; */
 }
