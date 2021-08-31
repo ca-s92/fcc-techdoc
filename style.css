@@ -37,6 +37,7 @@ nav ul {
   /* width: 320px; */
 }
 
-#Best_Practices {
+section {
   grid-area: main;
+  grid-row: auto;
 }
