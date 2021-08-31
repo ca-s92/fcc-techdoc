@@ -23,6 +23,8 @@ main {
     'menu main'
     'menu main'
     'menu main'
+    'menu main'
+    'menu main'
     'menu main';
 }
 
@@ -40,4 +42,5 @@ nav ul {
 section {
   grid-area: main;
   grid-row: auto;
+  grid-column: auto;
 }
