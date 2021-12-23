@@ -32,6 +32,7 @@ nav {
   grid-area: menu;
   grid-row-start: 1;
   border-right: #000 solid 1px;
+  padding-right: 1em;
   /*grid-row-end: 6;
   position: fixed; 
   background-color: ; */
@@ -40,6 +41,10 @@ nav {
 nav ul {
   list-style-type: none;
   /* width: 320px; */
+}
+
+#navbar {
+  /*padding: 2em 0em;*/
 }
 
 section {
