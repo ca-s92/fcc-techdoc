@@ -33,6 +33,7 @@ nav {
   grid-row-start: 1;
   border-right: #000 solid 1px;
   padding-right: 1em;
+  overflow: scroll;
   /*grid-row-end: 6;
   position: fixed; 
   background-color: ; */
