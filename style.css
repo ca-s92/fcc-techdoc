@@ -44,6 +44,11 @@ nav ul {
   list-style-type: none;
 }
 
+nav li {
+  padding: 25px;
+  border: 1px solid #000;
+}
+
 section {
   grid-area: main;
   grid-row: auto;
