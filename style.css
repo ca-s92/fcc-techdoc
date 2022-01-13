@@ -31,12 +31,13 @@ main {
 nav {
   grid-area: menu;
   grid-row-start: 1;
-  /*border-right: #000 solid 1px; */
+  position: fixed;
   margin: 0;
-  padding: auto;
-  overflow: scroll;
+  padding: 0;
+  overflow: auto;
+  width: 30%;
   /*grid-row-end: 6;
-  position: fixed; 
+  border-right: #000 solid 1px;
   background-color: ; */
 }
 
